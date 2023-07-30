@@ -1,3 +1,8 @@
+
+if (typeof document !== 'undefined') {
+   let element = document.querySelector('.class-name')
+
+
 const platform = "https://github.com/kureisamu/LillyRunGameImgs/blob/main/platform.png?raw=true"
 const background = "https://github.com/kureisamu/LillyRunGameImgs/blob/main/background.png?raw=true"
 const clouds = "https://github.com/kureisamu/LillyRunGameImgs/blob/main/clouds.png?raw=true"
@@ -388,6 +393,3 @@ addEventListener('keyup', ({ key }) => {
             break
     }
 })
-
-if (typeof document !== 'undefined') {
-   let element = document.querySelector('.class-name')
