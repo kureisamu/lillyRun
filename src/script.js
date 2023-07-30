@@ -388,3 +388,6 @@ addEventListener('keyup', ({ key }) => {
             break
     }
 })
+
+if (typeof document !== 'undefined') {
+   let element = document.querySelector('.class-name')
